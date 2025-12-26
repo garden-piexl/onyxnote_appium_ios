@@ -22,9 +22,11 @@
    确保你的 iPad 已经连接并配置好，能够通过 Appium 进行测试。
 
 4. **Xcode**:
-   确保你已经安装了 Xcode，因为这个脚本使用的是 `XCUITest` 来进行自动化。
+   确保你已经安装了 Xcode，因为这个脚本使用的是 `XCUITest` 来进行自动化，Mac需要连接iOS设备，并运行WebDriverAgent项目。
+   具体教程：https://cloud.tencent.com/developer/article/1864001
+   拉取的代码：git clone https://github.com/appium/WebDriverAgent
 
-5. **安装的 App**:
+6. **安装的 App**:
    需要在设备上安装测试的 App。默认情况下，脚本会用到 `com.onyx.galaxy.note` 这个 `bundleId`，你可以根据自己的需要更改。
 
 ## 脚本概述
